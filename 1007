@@ -1,0 +1,17 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+int A,B,C,D;
+
+A = Int32.Parse(Console.ReadLine());
+B = Int32.Parse(Console.ReadLine());
+C = Int32.Parse(Console.ReadLine());
+D = Int32.Parse(Console.ReadLine());
+
+Console.WriteLine("DIFERENCA = "+ Convert.ToString(A*B-C*D));
+    }
+
+}
